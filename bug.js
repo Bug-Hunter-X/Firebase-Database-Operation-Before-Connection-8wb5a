@@ -1,0 +1,1 @@
+The Firebase SDK may throw an error if you try to access a database reference before the connection to the database has been established. This can happen if you try to perform a database operation in the componentDidMount lifecycle method before the Firebase app has fully initialized.
